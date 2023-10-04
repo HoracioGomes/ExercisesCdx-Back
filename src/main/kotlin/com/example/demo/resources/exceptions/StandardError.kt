@@ -1,4 +1,4 @@
-package com.example.demo.resources
+package com.example.demo.resources.exceptions
 
 import com.fasterxml.jackson.annotation.JsonFormat
 import java.io.Serial
@@ -7,11 +7,11 @@ import java.time.Instant
 
 class StandardError(
         @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM--dd'T'HH:mm:ss'Z'", timezone = "GMT")
-        private var timestamp: Instant,
-        private var status: Int,
-        private var error: String,
-        private var message: String?,
-        private var path: String,
+        var timestamp: Instant,
+        var status: Int,
+        var error: String,
+        var message: String?,
+        var path: String,
 
         ) : Serializable {
     companion object {

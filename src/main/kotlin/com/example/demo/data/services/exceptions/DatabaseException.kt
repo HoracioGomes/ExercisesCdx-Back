@@ -1,4 +1,4 @@
-package com.example.demo.services.exceptions
+package com.example.demo.data.services.exceptions
 
 import java.io.Serial
 
