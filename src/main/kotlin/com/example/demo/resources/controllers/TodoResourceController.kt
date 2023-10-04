@@ -2,7 +2,7 @@ package com.example.demo.resources.controllers
 
 import com.example.demo.data.dto.TodoDTO
 import com.example.demo.domain.models.Todo
-import com.example.demo.data.services.TodoService
+import com.example.demo.domain.services.TodoService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.DeleteMapping

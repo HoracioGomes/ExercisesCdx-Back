@@ -1,7 +1,7 @@
 package com.example.demo.resources.exceptions
 
-import com.example.demo.data.services.exceptions.DatabaseException
-import com.example.demo.data.services.exceptions.ResourceNotFoundException
+import com.example.demo.domain.services.exceptions.DatabaseException
+import com.example.demo.domain.services.exceptions.ResourceNotFoundException
 import jakarta.servlet.http.HttpServletRequest
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

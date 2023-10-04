@@ -1,9 +1,9 @@
-package com.example.demo.data.services
+package com.example.demo.domain.services
 
 import com.example.demo.data.dto.TodoDTO
 import com.example.demo.domain.models.Todo
 import com.example.demo.data.repositories.TodoRepository
-import com.example.demo.data.services.exceptions.ResourceNotFoundException
+import com.example.demo.domain.services.exceptions.ResourceNotFoundException
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.dao.EmptyResultDataAccessException
 import org.springframework.stereotype.Service
