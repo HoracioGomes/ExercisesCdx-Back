@@ -16,7 +16,7 @@ class TodoService {
     private lateinit var repository: TodoRepository
     fun save(dto: TodoDTO): Todo {
         val todo = Todo(id = null, titulo = dto.titulo, descricao = dto.descricao,
-                dataAgendada = LocalDateTime.now(ZoneId.of("UTC")),
+                dataAgendada = LocalDateTime.parse(dto.dataAgendada),
                 concluida = false)
         return repository.save(todo)
     }
